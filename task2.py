@@ -29,7 +29,5 @@ y = input("Enter a word: ")
 z = input("Enter a word: ")
 a = input("Enter a word: ")
 b = input("Enter a word: ")
-
 List = [x,y,z,a,b]
-print("\n")
-print(str(List))
+print("\n" + str(List))
