@@ -24,10 +24,10 @@ Enter a word: virus
 ['apple', 'worm', 'dollar', 'shingle', 'virus']
 """
 
-x = input("Enter a word: ")
-y = input("Enter a word: ")
-z = input("Enter a word: ")
-a = input("Enter a word: ")
-b = input("Enter a word: ")
+x = input("Enter a word: ").strip()
+y = input("Enter a word: ").strip()
+z = input("Enter a word: ").strip()
+a = input("Enter a word: ").strrip()
+b = input("Enter a word: ").strip()
 List = [x,y,z,a,b]
 print("\n" + str(List))
