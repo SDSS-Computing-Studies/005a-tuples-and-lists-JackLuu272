@@ -23,3 +23,13 @@ Enter a word: virus
 
 ['apple', 'worm', 'dollar', 'shingle', 'virus']
 """
+
+x = input("Enter a word: ")
+y = input("Enter a word: ")
+z = input("Enter a word: ")
+a = input("Enter a word: ")
+b = input("Enter a word: ")
+
+List = [x,y,z,a,b]
+print("\n")
+print(str(List))

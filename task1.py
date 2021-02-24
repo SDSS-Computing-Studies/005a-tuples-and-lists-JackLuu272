@@ -24,4 +24,30 @@ The animal at that index is Dog
 
 
 
-animals =
+animals = ["Cat","Fish","Dog","Bear","Turtle"]
+
+animals.sort()
+
+index = input("Enter the index for an animal:")
+
+if int(index) == 0:
+    print("The animal at that index is ", animals[0])
+
+elif int(index) == 1:
+    print("The animal at that index is ", animals[1])
+
+elif int(index) == 2:
+    print("The animal at that index is ", animals[2])
+
+elif int(index) == 3:
+    print("The animal at that index is ", animals[3])
+
+else:
+    print("The animal at that index is ", animals[4])
+
+
+
+
+
+
+
