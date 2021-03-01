@@ -27,7 +27,7 @@ Enter a word: virus
 x = input("Enter a word: ").strip()
 y = input("Enter a word: ").strip()
 z = input("Enter a word: ").strip()
-a = input("Enter a word: ").strrip()
+a = input("Enter a word: ").strip()
 b = input("Enter a word: ").strip()
 List = [x,y,z,a,b]
 print("\n" + str(List))
