@@ -26,27 +26,27 @@ choice = input("Choose a person from the list to replace:")
 replace = input("Enter the replacement:")
  
 if choice == "Alain":
-    list.remove('Alain')
+    list.pop(0)
     list.insert(0, replace)
     print(list)
 elif choice == "Brian":
-    list.remove("Brian")
+    list.pop(1)
     list.insert(1, replace)
     print(list)
 elif choice == "Chris":
-    list.remove("Chris")
+    list.pop(2)
     list.insert(2, replace)
     print(list)
 elif choice == "Justin":
-    list.remove("Justin")
+    list.pop(3)
     list.insert(3, replace)
     print(list)
 elif choice == "Angela":
-    list.remove("Angela")
+    list.pop(4)
     list.insert(4, replace)
     print(list)
 else:
-    list.remove("Rick")
+    list.pop(5)
     list.insert(5, replace)
     print (list)
 
